@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-align: center;
+  background-color: rgb(213, 240, 242);
+}
+h1{
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 45px;
+   color: rgb(2, 65, 65);
+
+}
+.container {
+  height: 67vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game {
+  height: 60vmin;
+  width: 80vmin;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 20px;
+}
+.box:hover{
+    background-color: rgba(129, 181, 181, 0.299);
+
+}
+.box {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 8px 5px 8px rgb(188, 188, 188);
+  height: 18vmin;
+  width: 19vmin;
+  background-color: rgba(9, 191, 191, 0.299);
+  color: rgb(3, 109, 109);
+  font-weight: bolder;
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.x-o-btn:hover{
+    background-color: rgba(129, 181, 181, 0.299);
+}
+.x-o-btn {
+
+  border: none;
+  font-weight: bolder;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  background-color: rgba(9, 191, 191, 0.299);
+  padding: 5px;
+  color: rgb(3, 109, 109);
+}
+.hide {
+  display: none;
+}
+.game-btns:hover{
+    background-color: rgba(63, 63, 63, 0.92);
+
+}
+.game-btns {
+  border: none;
+  font-weight: bolder;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 40px;
+  padding: 0px 15px 0px 15px;
+  border-radius: 10px;
+  background-color: rgba(5, 12, 22, 0.92);
+
+  color: rgb(207, 228, 251);
+}
+.display{
+    font-size: 35px;
+    font-weight: bolder;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+}
